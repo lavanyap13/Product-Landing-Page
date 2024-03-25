@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Product Landing Page</title>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+<style>
+    /* Resetting default margin and padding */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: 'Montserrat', sans-serif;
+        background-color: #fff;
+        color: #444;
+        line-height: 1.6;
+    }
+
+    /* Styling the header */
+    header {
+        background-color: #0051FF;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    }
+
+    /* Styling the main content */
+    .container {
+        max-width: 1200px;
+        margin: 20px auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #fff;
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    }
+
+    .product-image {
+        flex: 1;
+        overflow: hidden;
+    }
+
+    .product-image img {
+        width: 100%;
+        transition: transform 0.5s ease;
+    }
+
+    .product-description {
+        flex: 1;
+        padding: 40px;
+    }
+
+    .product-description h2 {
+        font-size: 36px;
+        margin-bottom: 20px;
+        color: #3535F4;
+    }
+
+    .product-description p {
+        font-size: 20px;
+        margin-bottom: 20px;
+        color: #555;
+    }
+
+    .cta-button {
+        background-color: #0051FF;
+        color: #fff;
+        padding: 15px 30px;
+        border: none;
+        border-radius: 25px;
+        font-size: 20px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        text-transform: uppercase;
+        outline: none;
+    }
+
+    .cta-button:hover {
+        background-color: #4375DE;
+    }
+
+    /* Styling the footer */
+    footer {
+        background-color: #0051FF;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+        margin-top: 20px;
+        border-radius: 0 0 10px 10px;
+    }
+</style>
+</head>
+<body>
+
+<header>
+    <h1>ASUS VivoBook 16</h1>
+</header>
+
+<div class="container">
+    <div class="product-image">
+        <img src="photo.jpg" alt="Product Image">
+    </div>
+    <div class="product-description">
+        <h2>ASUS Vivobook 16 (2023), Intel Core i9-13900H 13th Gen, 16" FHD+, Thin & Light Laptop (16GB/512GB SSD/Intel Iris Xe/Win 11/Office 2021/) X1605VA-MB947WS</h2>
+        <p>FHD+ (1920 x 1200) 16:10 aspect ratio
+Anti Glare Coating
+Backlit Keyboard
+Fingerprint Reader
+Numeric Keypad</p>
+        <p>Price:<b> Rs 77990/-</b> or EMI starts at <b>₹3,781/Month</p></b>
+        <button class="cta-button" href="">Buy Now</button>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2024 Product Landing page</p>
+</footer>
+
+</body>
+</html>
